@@ -7,9 +7,19 @@
   <title>Document</title>
 
   <style>
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
     .bc-logo {
       width: 60px;
       vertical-align: top;
+    }
+
+    .titulli-kryesore {
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
 
     .main-menu {
@@ -51,6 +61,26 @@
       cursor: pointer;
     }
 
+
+    .main-img {
+      width: 300px;
+      display: block;
+    }
+
+    .email-input {
+      display: block;
+    }
+
+    .contact-form {
+      background-color: lightpink;
+    }
+
+    .name-input, .surname-input, .email-input {
+      width: 150px;
+      height: 25px;
+      font-size: 15px;
+    }
+
   </style>
 </head>
 <body>
@@ -68,7 +98,7 @@
   </ul>
 
 
-  <h1>
+  <h1 class="titulli-kryesore">
     Minimal red tulip flower vase.
   </h1>
 
@@ -83,7 +113,24 @@
   </button>
 
 
-  <img src="main-photo.svg" alt="Roses">
+  <img src="main-photo.svg" alt="Roses" class="main-img">
+
+
+  <h3>Contact Us</h3>
+  <form action="thanks.html" class="contact-form">
+    <input type="text" placeholder="Name" class="name-input">
+    <input type="text" placeholder="Surname" class="surname-input">
+
+    <br><br>
+    <label for="email">Email</label>
+    <input type="email" class="email-input">
+    <br>
+
+   <textarea name="message"></textarea>
+<br><br>
+   <input type="submit" >
+
+  </form>
   
 </body>
 </html>
