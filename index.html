@@ -1,119 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Document</title>
-
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    .bc-logo {
-      width: 60px;
-      vertical-align: top;
-    }
-
-    .titulli-kryesore {
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-
-    .main-menu {
-      display: inline-block;
-    }
-
-    .main-menu li {
-      display: inline-block;
-      margin-left: 10px;
-      margin-right: 10px;
-      cursor: pointer;
-      height: 30px;
-      width: 90px;
-      text-align: center;
-      align-content: center;
-
-      border-bottom: 0px solid transparent ;
-      
-
-      transition: 1s;
-    }
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="assets/css/index.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+ <title>Document</title>
 
 
-    .main-menu li:hover {
-      border-bottom: 1px solid black;
-    }
-
-
-    .add-to-cart-btn {
-      background-color: black;
-      color: white;
-      height: 39px;
-      width: 115px;
-      border-radius: 20px;
-      cursor: pointer;
-    }
-
-
-    .main-img {
-      width: 300px;
-      display: block;
-    }
-
-    .email-input {
-      display: block;
-    }
-
-    .contact-form {
-      background-color: lightpink;
-    }
-
-    .name-input, .surname-input, .email-input {
-      width: 150px;
-      height: 25px;
-      font-size: 15px;
-    }
-  </style>
-
-
+ 
 </head>
 <body>
 
 
-  <img src="bc-logo.png" alt="Bloom Crafts"
-  class="bc-logo">
+  <header class="header">
+    <img src="assets/img/bc-logo.png" alt="Bloom Crafts"
+    class="bc-logo">
+    <nav>
+      <ul class="main-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#flowers">Flowers</a></li>
+        <li><a href="#gifts">Gifts</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <ul class="main-menu">
-      <li>Home</li>
-      <li>Red Rose</li>
-      <li>Lotus</li>
-      <li>Jasmin</li>
-      <li>Contact</li>
-    </ul>
 
 
+  <section id="Home">
+    <h1 class="titulli-kryesore">
+      Minimal red tulip flower vase.
+    </h1>
+  
+    <h3>$18.99</h3>
+  
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat quis imperdiet sodales.
+    </p>
+  
+    <button class="add-to-cart-btn">
+      Add to Cart
+    </button>
+  
+    <img src="assets/img/main-photo.svg" alt="Roses" class="main-img">
+  </section>
+
+
+  <section id="shop" class="home-section">
+    <h1>Shop</h1>
+  </section>
     
-  <h1 class="titulli-kryesore">
-    Minimal red tulip flower vase.
-  </h1>
 
-  <h3>$18.99</h3>
+  <section id="flowers" class="home-section">
+    <h1>Flowers</h1>
+  </section>
 
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat quis imperdiet sodales.
-  </p>
-
-  <button class="add-to-cart-btn">
-    Add to Cart
-  </button>
-
-
-  <img src="main-photo.svg" alt="Roses" class="main-img">
+  
+  <section id="gifts" class="home-section">
+    <h1>Gifts</h1>
+  </section>
+  
+  <section id="about" class="home-section">
+    <h1>About</h1>
+  </section>
 
 
-
-
+  <section id="contact" class="home-section">
+    <h1>Contact</h1>
+  </section>
 
 
   <h3>Contact Us</h3>
