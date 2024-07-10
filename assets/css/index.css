@@ -181,12 +181,13 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1;
+  padding-right: 20px;
 }
 
 
 .main-img {
   width: 100%;
-  display: block;
+  margin-left: -70px;
 }
 
 
