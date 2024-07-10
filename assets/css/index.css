@@ -235,3 +235,11 @@ body {
 }
 
 /*End Home Section Styling*/
+
+
+
+.we-are-different-section {
+  width: 100%;
+  height: 100vh;
+  background-color: lightblue;
+}

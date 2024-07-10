@@ -11,6 +11,74 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+<style>
+
+  .my-card {
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 7px;
+  }
+
+
+  .we-are-different-section {
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .cards-grid {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    column-gap: 20px;
+    row-gap: 40px;
+    justify-content: center;
+    justify-items: center; /* Center items horizontally */
+  }
+
+
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    /* CSS rules for mobile screens */
+    .cards-grid {
+        grid-template-columns: 1fr; /* One column for mobile */
+    }
+}
+
+/* Media query for tablets and larger phones */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* CSS rules for tablets and larger phones */
+    .cards-grid {
+        grid-template-columns: 1fr 1fr; /* Two columns for tablets */
+    }
+}
+
+/* Media query for small desktops and larger devices */
+@media (min-width: 1024px) {
+    /* CSS rules for small desktops and larger devices */
+    .cards-grid {
+        grid-template-columns: 350px 350px 350px; /* Default three columns */
+    }
+}
+
+
+</style>
+
+
+
+
  <title>Document</title>
 </head>
 <body>
@@ -104,8 +172,6 @@
     <button class="add-to-cart-btn">
       Add to Cart
     </button>
-  
-
 
   -->
   </section>
@@ -113,6 +179,37 @@
 
   <!--Home Section-->
 
+
+
+  <section class="we-are-different-section">
+
+
+    <div class="cards-grid">
+      
+    <div class="my-card" >
+      <h1>Freshness Guaranteed</h1>
+      <p>Our commitment to quality means that all our flowers are sourced daily from local growers and hand-selected to ensure freshness and longevity, offering our customers the best possible experience.</p>
+    </div>
+
+
+    
+    <div class="my-card" >
+      <h1>Freshness Guaranteed</h1>
+      <p>Our commitment to quality means that all our flowers are sourced daily from local growers and hand-selected to ensure freshness and longevity, offering our customers the best possible experience.</p>
+    </div>
+
+
+        
+    <div class="my-card" >
+      <h1>Freshness Guaranteed</h1>
+      <p>Our commitment to quality means that all our flowers are sourced daily from local growers and hand-selected to ensure freshness and longevity, offering our customers the best possible experience.</p>
+    </div>
+    </div>
+
+
+
+
+  </section>
 
 
 
